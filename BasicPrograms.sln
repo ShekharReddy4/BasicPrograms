@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberPatterns", "NumberPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuirkyCsharpPrograms", "QuirkyCsharpPrograms\QuirkyCsharpPrograms.csproj", "{BC816A20-C8FE-4548-B0F4-CAD9F735FD0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCsharpProg-GitHub", "BasicCsharpProg-GitHub\BasicCsharpProg-GitHub.csproj", "{710519B3-4AA1-48DE-B015-E74336072F2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BC816A20-C8FE-4548-B0F4-CAD9F735FD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC816A20-C8FE-4548-B0F4-CAD9F735FD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC816A20-C8FE-4548-B0F4-CAD9F735FD0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710519B3-4AA1-48DE-B015-E74336072F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710519B3-4AA1-48DE-B015-E74336072F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710519B3-4AA1-48DE-B015-E74336072F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710519B3-4AA1-48DE-B015-E74336072F2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

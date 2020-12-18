@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace QuirkyCsharpPrograms
 {
-    class First
+    class FirstUtilClass
     {
+        // Program: 1
         public static void ProgOne()
         {
             int a = 29;
@@ -21,12 +19,36 @@ namespace QuirkyCsharpPrograms
             b = -++b; // here =- is NOT an operator but an assignment to the LHS and prepend SIGN to the RHS
             Console.WriteLine(b); // -29
         }
+
+        // Program: 2 Delegates in a generic class and calling the anon fucntion stored
+
+        delegate void Printer();
+        public static void ProgTwo()
+        {
+            List<Printer> printers = new List<Printer>();
+
+            int i = 0;
+
+            for (; i < 10; i++)
+
+            {
+                printers.Add(delegate { Console.WriteLine(i); });
+            }
+
+            foreach (var printer in printers)
+            {
+                printer();//print 10
+            }
+        }
+
     }
+
     class Program
     {
         static void Main(string[] args)
         {
-            First.ProgOne();
+            FirstUtilClass.ProgOne();
+            FirstUtilClass.ProgTwo();
         }
     }
 }
