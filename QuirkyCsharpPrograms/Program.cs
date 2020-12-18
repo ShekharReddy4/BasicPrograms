@@ -41,14 +41,39 @@ namespace QuirkyCsharpPrograms
             }
         }
 
+        // Switch case example Since I was confused a bit with switch case
+        public static void Switchcase(int c)
+        {
+            int x = c;
+
+            switch (x)
+            {
+                // here the control will fallthrough till the break
+                // so logically programmer is saying that if the value of x = 5||10||15 print "Value of x is 15" 
+                case 5:
+                case 10:
+                case 15:
+                    Console.WriteLine("Value of x is 15");
+                    break;
+                default:
+                    Console.WriteLine("Unknown value");
+                    break;
+            }
+        }
+
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            FirstUtilClass.ProgOne();
-            FirstUtilClass.ProgTwo();
+            //FirstUtilClass.ProgOne();
+            //FirstUtilClass.ProgTwo();
+
+            int c;
+            c = Convert.ToInt32(Console.ReadLine());
+            FirstUtilClass.Switchcase(c);
+
         }
     }
 }
