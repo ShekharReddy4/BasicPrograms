@@ -20,7 +20,6 @@ namespace BasicCsharpProg_GitHub
             StringMethodExplorer();
             Console.WriteLine();
 
-            Console.ReadLine();
         }
 
         // Q.1: How to reverse a string?
@@ -415,7 +414,8 @@ namespace BasicCsharpProg_GitHub
             Console.WriteLine("------ INSERT METHOD ------");
             string str = "JohnWick";
             Console.WriteLine("Initial string = " + str);
-            string res = str.Insert(9, " ");
+            string res = str.Insert(7, " ");
+            //string res = str.Insert(9, " ");// throws an exception out of bounds
             Console.WriteLine("Updated = " + res);
         }
     }

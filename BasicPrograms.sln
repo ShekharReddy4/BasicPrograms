@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuirkyCsharpPrograms", "Qui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCsharpProg-GitHub", "BasicCsharpProg-GitHub\BasicCsharpProg-GitHub.csproj", "{710519B3-4AA1-48DE-B015-E74336072F2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InrythmCodingInterview", "InrythmCodingInterview\InrythmCodingInterview.csproj", "{2221B1AF-A7A7-4257-ABC4-8BAD0A373562}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{710519B3-4AA1-48DE-B015-E74336072F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{710519B3-4AA1-48DE-B015-E74336072F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{710519B3-4AA1-48DE-B015-E74336072F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2221B1AF-A7A7-4257-ABC4-8BAD0A373562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2221B1AF-A7A7-4257-ABC4-8BAD0A373562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2221B1AF-A7A7-4257-ABC4-8BAD0A373562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2221B1AF-A7A7-4257-ABC4-8BAD0A373562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
