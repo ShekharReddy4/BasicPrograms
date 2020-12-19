@@ -8,6 +8,7 @@ namespace ImaginateCodingProg
 {
     class MainClass
     {
+        // return the first indices of the substring
         public static string sol(string mstr, string sstr)
         {
             mstr = mstr.ToUpper();
@@ -38,6 +39,27 @@ namespace ImaginateCodingProg
             }
             return res;
         }
+
+        // check if a given number is pow of 2 
+        public static bool Ifpowoftwo(int num)
+        {
+            if (num % 2 != 0)
+            {
+                bool res = num == 1 ? true : false;
+                return res;
+            }
+            else
+            {
+                if (Ifpowoftwo(num / 2))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
         public static void Main(string[] args)
         {
             string mstr = Console.ReadLine();
@@ -52,6 +74,10 @@ namespace ImaginateCodingProg
             {
                 Console.WriteLine(res);
             }
+
+
+            int num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(Ifpowoftwo(num));
         }
     }
 }
