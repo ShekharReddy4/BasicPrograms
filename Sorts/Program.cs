@@ -90,24 +90,28 @@ namespace Sorts
         static void Main(string[] args)
         {
 
-            Console.WriteLine("-----Bubble Sort-----");
-            Display(new int[] { 6, 3, 5, 7, 10, 14, 25 });
-            BubbleSort(new int[] { 6, 3, 5, 7, 10, 14, 25 });
+            //Console.WriteLine("-----Bubble Sort-----");
+            //Display(new int[] { 6, 3, 5, 7, 10, 14, 25 });
+            //BubbleSort(new int[] { 6, 3, 5, 7, 10, 14, 25 });
 
-            Console.WriteLine("-----Insertion Sort-----");
-            Display(new int[] { 6, 3, 5, 7, 10, 14, 25 });
-            InsertionSort(new int[] { 6, 3, 5, 7, 10, 14, 25 });
+            //Console.WriteLine("-----Insertion Sort-----");
+            //Display(new int[] { 6, 3, 5, 7, 10, 14, 25 });
+            //InsertionSort(new int[] { 6, 3, 5, 7, 10, 14, 25 });
 
-            // Selection sort is similar to Insertion sort
-            Console.WriteLine("-----Selection Sort-----");
-            //Display(new int[] { 6, 3, 5, 7, 10, 4, 2 });
-            SelectionSort(new int[] { 6, 3, 5, 7, 10, 4, 2 });
+            //// Selection sort is similar to Insertion sort
+            //Console.WriteLine("-----Selection Sort-----");
+            ////Display(new int[] { 6, 3, 5, 7, 10, 4, 2 });
+            //SelectionSort(new int[] { 6, 3, 5, 7, 10, 4, 2 });
 
+            // Not implemented yet need to change 
             //Console.WriteLine("-----Quick Sort-----");
             //Display(new int[] { 6, 3, 5, 7, 10, 14, 25 });
             //QuickSort(new int[] { 6, 3, 5, 7, 10, 14, 25 });
 
             // Merge sort
+
+            string str = "welcome to abc";
+            Console.WriteLine(str[str.Length+1]);
 
         }
     }
